@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "type": "module",
+  "engines": {
+    "node": "^20.5.0"
+  },
   "scripts": {
-    "start": "src/app.js"
+    "start": "node src/app.js"
   },
   "keywords": [],
   "author": "",
